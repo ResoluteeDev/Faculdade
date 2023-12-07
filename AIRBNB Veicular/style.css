@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
+body{
+    background: url(./images/img1.png), cover no-repeat;
+    background-color: lightgray;   
+    text-align: center;
+    
+    
+    
+}
+
+#fundo{
+    background-color: #FFFFFF;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px 5px #221d1d;
+    padding: 3px 3px 3px;
+    border-radius: 8px;
+}
+
+#xp1{
+    background-color: #ffffff;
+    width: 62pc;
+    height: 20pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+#xp2{
+    background-color: #ffffff;
+    width: 62pc;
+    height: 20pc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+
+
+h1{
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+}
+h2{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+.btn{
+    background-color: orange;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px 10px 10px;
+}
+
+#img1{
+    width: 300px;
+    position: left, center;
+    visibility: show;
+}
+#img2{
+    width: 350px;
+    position: right;
+}
+
+p #text1{
+    position: static, top;
+}
+
+.feedback{
+    width: 250px;
+    box-shadow: 3px 3px 7px 3px #443f3f;
+}
+
+
+
+
+#cadastro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input-field input{
+    background-color: transparent;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #ffa500;
+    font-size: 15px;
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+#cadastrar{
+    background-color: orange;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px 10px 10px;
+
+}
+
+#btn1{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: orange;
+    padding: 7px 7px 7px;
+    border-radius: 10px 10px 10px;
+
+}
+
+.topo{
+    background: #FFFFFF;
+    position: fixed;
+    bottom:10px;
+    right: 50px;
+    height: 40px;
+    width: 50px;
+    
+}
+#seta{
+    width: 20px;
+}
